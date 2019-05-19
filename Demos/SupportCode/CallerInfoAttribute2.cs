@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace CharpTipsTraps.SupportCode
 {
-    internal class CallerInfoAttribute2 : INotifyPropertyChanged
+    public class CallerInfoAttribute2 : INotifyPropertyChanged
     {
         private int _age;
         private string _name;
@@ -31,7 +31,7 @@ namespace CharpTipsTraps.SupportCode
             {
                 _age = value;
                 // Without [CallerMemberName] we have to pass a string of the prop name
-                OnPropertyChanged("Age");
+                OnPropertyChanged("MyAge");
             }
         }
 

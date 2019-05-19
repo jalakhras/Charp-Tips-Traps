@@ -40,17 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SupportCode\APartialType.cs" />
+    <Compile Include="SupportCode\APartialType.generated.cs" />
+    <Compile Include="SupportCode\CallerInfoAttribute.cs" />
+    <Compile Include="SupportCode\CallerInfoAttribute2.cs" />
+    <Compile Include="SupportCode\PersonWithDebuggerBrowsable.cs" />
+    <Compile Include="SupportCode\PersonWithDebuggerDisplay.cs" />
+    <Compile Include="SupportCode\PersonWithoutDebuggerBrowsable.cs" />
+    <Compile Include="SupportCode\PersonWithoutDebuggerDisplay.cs" />
     <Compile Include="Test\CallerInfoAttributesExample.cs" />
     <Compile Include="Test\DebuggerBrowsableAttributeExample.cs" />
     <Compile Include="Test\DebuggerDisplayAttrributeExample.cs" />
-    <Compile Include="DemoSupportCode\APartialType.cs" />
-    <Compile Include="DemoSupportCode\APartialType.generated.cs" />
-    <Compile Include="DemoSupportCode\CallerInfoAttribute.cs" />
-    <Compile Include="DemoSupportCode\CallerInfoAttribute2.cs" />
-    <Compile Include="DemoSupportCode\PersonWithDebuggerBrowsable.cs" />
-    <Compile Include="DemoSupportCode\PersonWithDebuggerDisplay.cs" />
-    <Compile Include="DemoSupportCode\PersonWithoutDebuggerBrowsable.cs" />
-    <Compile Include="DemoSupportCode\PersonWithoutDebuggerDisplay.cs" />
     <Compile Include="Test\DontCallVirtualMethodsFromCtorExample.cs" />
     <Compile Include="Test\InternalsExample.cs" />
     <Compile Include="Test\NullCoalescingOperatorExample.cs" />

@@ -8,7 +8,7 @@ namespace Test
     public class CallerInfoAttributesExample
     {
         [TestMethod]
-        public void ExampleFooMethod()
+        public void ExampleCallerMethod()
         {
             var c = new CallerInfoAttribute();
 
@@ -17,6 +17,17 @@ namespace Test
             Debug.WriteLine(c.WhatFileCalledMe());
 
             Debug.WriteLine(c.WhatLineCalledMe());
+        }
+
+
+         [TestMethod]
+        public void ExampleChangeMethod()
+        {
+           var  x = new CallerInfoAttribute2();
+            x.Name = "Jassar";
+            x.Age = 24;
+            
+            
         }
     }
 }
