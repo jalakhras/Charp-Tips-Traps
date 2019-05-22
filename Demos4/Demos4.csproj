@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DemoSupportCode\Person.cs" />
     <Compile Include="NumberStylesExample.cs" />
+    <Compile Include="ParseExactDateTimeExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
