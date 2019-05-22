@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsOrCastExample.cs" />
+    <Compile Include="BreakAndContinueExample.cs" />
     <Compile Include="ConvertingBaseTypesToBinaryExample.cs" />
     <Compile Include="DateTimeStylesExample.cs" />
     <Compile Include="DemoSupportCode\Person.cs" />
