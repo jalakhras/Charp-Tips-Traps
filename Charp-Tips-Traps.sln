@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingAndAligningValues
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeWorkingWithPathsEasier", "MakeWorkingWithPathsEasier\MakeWorkingWithPathsEasier.csproj", "{79278CF0-63D0-4F45-A218-2A66A21760FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecifyMethodsThatTakeAnArbitraryNumberOfArguments", "SpecifyMethodsThatTakeAnArbitraryNumberOfArguments\SpecifyMethodsThatTakeAnArbitraryNumberOfArguments.csproj", "{D09FD195-1ECA-43EB-9454-F561AC50A97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{79278CF0-63D0-4F45-A218-2A66A21760FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79278CF0-63D0-4F45-A218-2A66A21760FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79278CF0-63D0-4F45-A218-2A66A21760FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09FD195-1ECA-43EB-9454-F561AC50A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09FD195-1ECA-43EB-9454-F561AC50A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09FD195-1ECA-43EB-9454-F561AC50A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09FD195-1ECA-43EB-9454-F561AC50A97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
