@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateTimeStylesExample.cs" />
     <Compile Include="DemoSupportCode\Person.cs" />
     <Compile Include="NumberStylesExample.cs" />
     <Compile Include="ParseExactDateTimeExample.cs" />
