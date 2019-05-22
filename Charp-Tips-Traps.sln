@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeOptionalParamThings", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos4", "Demos4\Demos4.csproj", "{FBF06962-C3B0-43FA-B264-464DA1395B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplacingTemporaryCollectionsWithYield", "ReplacingTemporaryCollectionsWithYield\ReplacingTemporaryCollectionsWithYield.csproj", "{21C25DDD-5BB1-4674-859A-46C8484A80FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FBF06962-C3B0-43FA-B264-464DA1395B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBF06962-C3B0-43FA-B264-464DA1395B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBF06962-C3B0-43FA-B264-464DA1395B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C25DDD-5BB1-4674-859A-46C8484A80FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C25DDD-5BB1-4674-859A-46C8484A80FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C25DDD-5BB1-4674-859A-46C8484A80FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C25DDD-5BB1-4674-859A-46C8484A80FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
