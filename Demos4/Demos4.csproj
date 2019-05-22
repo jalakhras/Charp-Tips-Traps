@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsOrCastExample.cs" />
     <Compile Include="ConvertingBaseTypesToBinaryExample.cs" />
     <Compile Include="DateTimeStylesExample.cs" />
     <Compile Include="DemoSupportCode\Person.cs" />
